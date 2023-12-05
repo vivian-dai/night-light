@@ -37,12 +37,14 @@ $$
 
 In the schematics I drew up, $R_2$ of the voltage divider formula is the photoresistor and $R_1$ from the formula is the 100k resistor. This was determined by knowing the resistance of a photoresistor increases as it gets darker and when it's darker, we want more voltage. Since we want voltage and resistance to be porportional, the photoresistor should be $R_2$. I took a multimeter and measured the value of the photoresistor under normal light conditions. It was about 10k. We know $V_{in}$ is 6V and we want $V_{out}$ to be 0.58V so we now need to solve for the value of $R_1$.
 
-$$
-V_{out} = V_{in}\frac{R_2}{R_1 + R_2} \\
-0.58 = 6\frac{10}{10 + R_1} \\
-5.8 + 0.58R_1 = 60 \\
-0.58R_1 = 54.2 \\
-R_1 \approx 93.4
-$$
+$$V_{out} = V_{in}\frac{R_2}{R_1 + R_2}$$
+
+$$0.58 = 6\frac{10}{10 + R_1}$$
+
+$$5.8 + 0.58R_1 = 60$$
+
+$$0.58R_1 = 54.2$$
+
+$$R_1 \approx 93.4$$
 
 I don't have a 93.4k resistor so I used an 100k resistor.
