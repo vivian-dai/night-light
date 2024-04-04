@@ -1,6 +1,11 @@
 # night-light
 I thought I should have some hardware projects on my Github so I decided to start with a fairly simple one. This is a night light that lights up when it's dark enough.
 
+## 3D Render
+![render top view](https://github.com/vivian-dai/night-light/assets/38384400/fb3c7d1d-6f85-40b0-8d70-25c1aa042dad)
+
+![render side view](https://github.com/vivian-dai/night-light/assets/38384400/0597c063-6b5d-4a2a-8767-9775197faf6a)
+
 ## Components List
 - 330 ohm resistor
 - 100k ohm resistor
